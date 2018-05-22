@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>RPS</title>
+  <link rel="stylesheet" href="rps.css">
+  <script src="game.js"></script>
+  <link href="https://fonts.googleapis.com/css?family=Roboto:100,400,500" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.css">
+</head>
+<body>
+  <div class="row body">
+    <div class="col-xs-12 col-sm-12 col-lg-12 col-md-12">
+      <div class="row header">
+        <div class="col-xs-12 col-sm-12 col-lg-12 col-md-12">
+          <h1>Let's Play Rock Paper Scissors</h1>
+        </div>
+      </div>
+      <div class="row bottom">
+        <div class="col-xs-4 col-sm-4 col-lg-4 col-md-4">
+        <button class="but1" onclick="main()" >Start  </button>
+        </div>
+        <div class="col-xs-4 col-sm-4 col-lg-4 col-md-4">
+        <button  class="but2" onclick="restart()">Restart</button>
+        </div>
+        <div class="col-xs-4 col-sm-4 col-lg-4 col-md-4">
+        <button  class="but3" onclick="about()">About  </button>
+       </div>
+    </div>
+    <div class="row" id="instructions">
+        <div class="col-xs-12 col-sm-12 col-lg-12 col-md-12"></div>
+    </div>
+    <div class="row" id="option">
+      <div class="col-xs-12 col-sm-12 col-lg-12 col-md-12"></div>
+    </div>
+    <div class="row" id="computer">
+      <div class="col-xs-12 col-sm-12 col-lg-12 col-md-12"></div>
+    </div>
+    <div class="row" id="result">
+        <div class="col-xs-12 col-sm-12 col-lg-12 col-md-12"></div>
+    </div>
+  </div>
+</div>
+</body>
+</html>

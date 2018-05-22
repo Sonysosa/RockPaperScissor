@@ -1,0 +1,103 @@
+body{
+  background-image: url('pic1.jpg');
+  background-repeat: no-repeat;
+  background-size:cover;
+}
+
+.header h1 {
+  color: #2F4172;
+  text-shadow: 2px 2px 4px #5F6A88;
+  font-size : 4em;
+  text-align: center;
+  margin-top: 5px;
+}
+
+ .bottom {
+  padding-left: 300px;
+  padding-top: 80px;
+ } 
+
+.but1 {
+background-color:#fef2bf;
+border-radius:28px;
+border:1px solid #77797C;
+cursor:pointer;
+color: #2F4172;
+font-size: 2em;
+padding:16px 31px; 
+  font-family: 'Roboto', sans-serif;
+text-shadow:0px 1px 0px #5F6A88;
+}
+.but1:hover {
+background-color: #999EA9;
+}
+.but1:active {
+position:relative;
+top:1px;
+}
+
+.but2 {
+background-color:#fef2bf;
+border-radius:28px;
+border:1px solid #77797C;
+cursor:pointer;
+color: #2F4172;
+font-size: 2em;
+padding:16px 31px; 
+font-family: 'Roboto', sans-serif;
+text-shadow:0px 1px 0px #5F6A88;
+margin-left: -10px;
+}
+
+.but2:hover {
+background-color: #999EA9;
+}
+.but2:active {
+position:relative;
+top:1px;
+}
+.but3 {
+background-color:#fef2bf;
+border-radius:28px;
+border:1px solid #77797C;
+cursor:pointer;
+color: #2F4172;
+font-size: 2em;
+padding:16px 31px; 
+font-family: 'Roboto', sans-serif;
+text-shadow:0px 1px 0px #5F6A88;
+} 
+
+.but3:hover {
+background-color: #999EA9;
+}
+.but3:active {
+position:relative;
+top:1px;
+}
+
+#option {
+  text-align: center;
+  color: #2F4172;
+  padding-top: 300px;
+  font-size: 1.5em;
+}  
+
+#computer {
+  text-align: center;
+  color: #2F4172;
+  font-size: 1.5em;
+} 
+
+#result {
+  text-align: center;
+  color: #2F4172;
+  font-size: 2em;
+} 
+
+#instructions{
+   text-align: justify;
+   font-size: 1.5em;
+   padding-left:50px; 
+}
+
